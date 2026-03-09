@@ -21,9 +21,14 @@ All users should be familiar with:
 * Code of Conduct: Documentation/process/code-of-conduct.rst
 * License: See COPYING
 
-Documentation can be built with `make htmldocs` or viewed online at:
-https://www.kernel.org/doc/html/latest/
+Documentation can be built with
 
+.. code-block:: bash
+
+   make htmldocs
+
+or viewed online at:
+https://www.kernel.org/doc/html/latest/
 
 What's my role?
 ============

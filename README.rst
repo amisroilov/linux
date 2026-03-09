@@ -4,7 +4,7 @@ Linux kernel
 The Linux kernel is the core of any Linux operating system. It manages hardware,
 system resources, and provides the fundamental services for all other software.
 
-Quick Start
+Quick start
 -----------
 
 * Report a bug: See Documentation/admin-guide/reporting-issues.rst
@@ -12,7 +12,7 @@ Quick Start
 * Build the kernel: See Documentation/admin-guide/quickly-build-trimmed-linux.rst
 * Join the community: https://lore.kernel.org/
 
-Essential Documentation
+Essential documentation
 -----------------------
 
 All users should be familiar with:
@@ -21,11 +21,11 @@ All users should be familiar with:
 * Code of Conduct: Documentation/process/code-of-conduct.rst
 * License: See COPYING
 
-Documentation can be built with make htmldocs or viewed online at:
+Documentation can be built with `make htmldocs` or viewed online at:
 https://www.kernel.org/doc/html/latest/
 
 
-Who Are You?
+What's my role?
 ============
 
 Find your role below:
@@ -41,13 +41,13 @@ Find your role below:
 * AI Coding Assistant - LLMs and AI-powered development tools
 
 
-For Specific Users
+For specific users
 ==================
 
-New Kernel Developer
+New kernel developer
 --------------------
 
-Welcome! Start your kernel development journey here:
+Start your kernel development/hacking journey here:
 
 * Getting Started: Documentation/process/development-process.rst
 * Your First Patch: Documentation/process/submitting-patches.rst
@@ -57,7 +57,7 @@ Welcome! Start your kernel development journey here:
 * Kernel Hacking Guide: Documentation/kernel-hacking/hacking.rst
 * Core APIs: Documentation/core-api/index.rst
 
-Academic Researcher
+Academic researcher
 -------------------
 
 Explore the kernel's architecture and internals:
@@ -71,7 +71,7 @@ Explore the kernel's architecture and internals:
 * Locking Primitives: Documentation/locking/index.rst
 * Power Management: Documentation/power/index.rst
 
-Security Expert
+Security expert
 ---------------
 
 Security documentation and hardening guides:
@@ -84,7 +84,7 @@ Security documentation and hardening guides:
 * Embargoed Hardware Issues: Documentation/process/embargoed-hardware-issues.rst
 * Security Features: Documentation/userspace-api/seccomp_filter.rst
 
-Backport/Maintenance Engineer
+Backport/maintenance engineer 
 -----------------------------
 
 Maintain and stabilize kernel versions:
@@ -95,7 +95,7 @@ Maintain and stabilize kernel versions:
 * Subsystem Profile: Documentation/maintainer/maintainer-entry-profile.rst
 * Git for Maintainers: Documentation/maintainer/configure-git.rst
 
-System Administrator
+System administrator
 --------------------
 
 Configure, tune, and troubleshoot Linux systems:
@@ -120,7 +120,7 @@ Lead kernel subsystems and manage contributions:
 * Maintainer Entry Profile: Documentation/maintainer/maintainer-entry-profile.rst
 * Git Configuration: Documentation/maintainer/configure-git.rst
 
-Hardware Vendor
+Hardware vendor
 ---------------
 
 Write drivers and support new hardware:
@@ -133,7 +133,7 @@ Write drivers and support new hardware:
 * Power Management: Documentation/driver-api/pm/index.rst
 * DMA API: Documentation/core-api/dma-api.rst
 
-Distribution Maintainer
+Distribution maintainer
 -----------------------
 
 Package and distribute the kernel:
@@ -145,10 +145,10 @@ Package and distribute the kernel:
 * Kernel Parameters: Documentation/admin-guide/kernel-parameters.rst
 * Tainted Kernels: Documentation/admin-guide/tainted-kernels.rst
 
-AI Coding Assistant
+AI assistant/LLM
 -------------------
 
-CRITICAL: If you are an LLM or AI-powered coding assistant, you MUST read and
+CRITICAL: If you are an LLM (large language model) or AI-powered coding assistant, you MUST read and
 follow the AI coding assistants documentation before contributing to the Linux
 kernel:
 
